@@ -1,37 +1,103 @@
 <!DOCTYPE html>
-<html lang="en-us" dir="ltr"><script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6"></script>
-<script type="text/javascript" src="/js/search.min.cd6e5547ce679d10cfde1208cd552f33cc624509065b0dc968ba19a2a2b42170.js"></script>
-
+<html lang="en-us" dir="ltr">
 <head>
-  <meta charset="utf-8">
-<meta name="viewport" content="width=device-width">
-<title>Post 1 | My New Hugo Site</title>
-
-      <link rel="stylesheet" href="/css/main.min.73be4799b2091d293b47b52ca2642fe82aa2b1c9c050e8d1b389a80939a30dd4.css" integrity="sha256-c75HmbIJHSk7R7UsomQv6CqiscnAUOjRs4moCTmjDdQ=" crossorigin="anonymous">
-
-
-      <script src="/js/main.23cd0c7d837263b9eaeb96ee2d9ccfa2969daa3fa00fa1c1fe8701a9b87251a1.js" integrity="sha256-I80MfYNyY7nq65buLZzPopadqj&#43;gD6HB/ocBqbhyUaE=" crossorigin="anonymous"></script>
-
+  <meta name="generator" content="shukuwu">
+  	<meta charset="utf-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="Cache-Control" content="no-transform ">
+	<meta name="applicable-device" content="pc,mobile">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="msapplication-tap-highlight" content="no">
+	<meta name="format-detection" content="telphone=no, email=no">
+	<meta name="Description" content="读小说就象聊天一样轻松有趣！言情小说、玄幻小说、都市小说、同人小说、校园小说、鬼故事等应有尽有。">
+	<meta name="keywords" content="书库屋, 小说, Tutorial, Web Development">
+	<title>Post 1 | 书库屋</title>
+	<link rel="canonical" href="https://shukuwu.com/">
+	<link rel="shortcut icon" href="http://localhost:1313/images/logo.ico">
+	<link href="http://localhost:1313/css/index.css" rel="stylesheet">
+	<link href="http://localhost:1313/css/bootstrap.min.css" rel="stylesheet">
+	<link href="http://localhost:1313/css/font-awesome.min.css" rel="stylesheet">
+	<link href="http://localhost:1313/css/indexpage.css" rel="stylesheet">
 
 </head>
 <body>
   <header>
-    <h1>My New Hugo Site</h1>
+    <div class="huabenheader hidden-lg hidden-md">
+	<div class="HuabenNavTop">
+		<div class="TopNav">
+			<ul class="pull-right">
+				<li><a href="https://shukuwu.com/search" class="huaben-img-btn search">[搜索]</a></li>
+				<li><a href="https://shukuwu.com/#" id="huabenMore" class="huaben-img-btn more">[菜单]</a></li>
+			</ul>
+			<div class="hlogo">
+				<a href="https://shukuwu.com/">
+					<img alt="书库屋" src="http://localhost:1313/images/logo_index.png">
+				</a>
+			</div>
+		</div>
+		<div class="TopButtons">
+			<ul>
+				<li><a href="https://www.ihuaben.com/"><i class="hicon-home"></i><span>首页</span></a></li>
+				<li><a href="https://www.ihuaben.com/tongren/"><i class="hicon-catalog"></i><span>书库</span></a></li>
+				<li><a href="https://top.ihuaben.com/"><i class="hicon-rank"></i><span>排行</span></a></li>
+			</ul>
+			<ul>
+				<li><a href="https://user.ihuaben.com/bookShelf/list"><i class="hicon-shelf"></i><span>收藏</span></a></li>
+				<li><a href="https://author.ihuaben.com/"><i class="hicon-write"></i><span>写作</span></a></li>
+				<li><a href="https://user.ihuaben.com/"><i class="hicon-my"></i><span>我的</span></a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="TopButtonsBG"></div>
+	<div class="TopButtonsSpace"></div>
+</div>
 
-  <nav>
-    <ul>
+
+<div class="huabenheader hidden-xs hidden-sm">
+	<div class="container HuabenNavTop">
+		<div class="pull-left hlogo">
+      <a href="https://shukuwu.com/">
+					<img alt="书库屋" src="http://localhost:1313/images/logo_index.png">
+			</a>
+		</div>
+		<ul class="pull-right list-inline">
+			
+		</ul>
+		<div class="text-center">
+			<form action="https://shukuwu.com/search">
+			<div class="searchForm">
+				<input type="text" id="search-query" name="s" placeholder="搜索">
+				<button type="submit"></button>
+			</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+
+
+<div class="HuabenNav hidden-xs hidden-sm">
+	<div class="container">
+		
+  <div>
+    <ul class="list-inline navTab" lang="navTab">
     <li>
-      <a href="/">Home</a>
+      <a href="/"><span>首页</span></a>
     </li>
     <li>
-      <a aria-current="true" class="ancestor" href="/posts/">Posts</a>
+      <a aria-current="true" class="ancestor" href="/posts/"><span>文章页</span></a>
     </li>
     <li>
-      <a href="/tags/">Tags</a>
+      <a href="/tags/"><span>标签页</span></a>
     </li>
     </ul>
   </nav>
 
+	</div>
+</div>
 
   </header>
   <main>
@@ -54,17 +120,14 @@
   </div>
 
 
-    <li id="search-click" class="menu-item">
-    <a class="menu-item-link" href="javascript:void(0)">搜索</a>
-</li>
-
-<div id="fastSearch">
-    <input id="searchInput">
-    <ul id="searchResults"></ul>
-</div>
   </main>
   <footer>
     <p>Copyright 2024. All rights reserved.</p>
+
+<script src="https://shukuwu.com/js/jquery-3.3.1.min.js"></script>
+<script src="https://shukuwu.com/js/fuse.js"></script>
+<script src="https://shukuwu.com/js/jquery.mark.min.js"></script>
+<script src="https://shukuwu.com/js/search.js"></script>
 
   </footer>
 </body>

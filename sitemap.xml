@@ -2,45 +2,51 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.org/posts/my-first-post/</loc>
+    <loc>https://shukuwu.com/novel/my-first-post/</loc>
     <lastmod>2024-02-20T15:15:30+08:00</lastmod>
   </url><url>
-    <loc>https://example.org/posts/</loc>
+    <loc>https://shukuwu.com/novel/</loc>
     <lastmod>2024-02-20T15:15:30+08:00</lastmod>
   </url><url>
-    <loc>https://example.org/index.html</loc>
-    <lastmod>2024-02-20T15:15:30+08:00</lastmod>
-  </url><url>
-    <loc>https://example.org/tags/blue/</loc>
+    <loc>https://shukuwu.com/tags/blue/</loc>
     <lastmod>2023-03-15T11:00:00-07:00</lastmod>
   </url><url>
-    <loc>https://example.org/tags/green/</loc>
+    <loc>https://shukuwu.com/tags/green/</loc>
     <lastmod>2023-03-15T11:00:00-07:00</lastmod>
   </url><url>
-    <loc>https://example.org/posts/post-3/</loc>
+    <loc>https://shukuwu.com/posts/post-3/</loc>
     <lastmod>2023-03-15T11:00:00-07:00</lastmod>
   </url><url>
-    <loc>https://example.org/tags/red/</loc>
+    <loc>https://shukuwu.com/tags/red/</loc>
     <lastmod>2023-03-15T11:00:00-07:00</lastmod>
   </url><url>
-    <loc>https://example.org/tags/</loc>
+    <loc>https://shukuwu.com/tags/</loc>
     <lastmod>2023-03-15T11:00:00-07:00</lastmod>
   </url><url>
-    <loc>https://example.org/posts/post-2/</loc>
+    <loc>https://shukuwu.com/posts/post-2/</loc>
     <lastmod>2023-02-15T10:00:00-07:00</lastmod>
   </url><url>
-    <loc>https://example.org/posts/post-1/</loc>
+    <loc>https://shukuwu.com/posts/post-1/</loc>
     <lastmod>2023-01-15T09:00:00-07:00</lastmod>
   </url><url>
-    <loc>https://example.org/posts/</loc>
+    <loc>https://shukuwu.com/tags/%E5%90%8C%E6%97%A5/</loc>
+    <lastmod>2023-01-15T09:00:00-07:00</lastmod>
+  </url><url>
+    <loc>https://shukuwu.com/tags/%E5%B0%8F%E8%AF%B4/</loc>
+    <lastmod>2023-01-15T09:00:00-07:00</lastmod>
+  </url><url>
+    <loc>https://shukuwu.com/novel/%E5%90%8C%E4%BA%BA/</loc>
+    <lastmod>2023-01-15T09:00:00-07:00</lastmod>
+  </url><url>
+    <loc>https://shukuwu.com/posts/</loc>
     <lastmod>2023-01-01T08:30:00-07:00</lastmod>
   </url><url>
-    <loc>https://example.org/</loc>
+    <loc>https://shukuwu.com/</loc>
     <lastmod>2023-01-01T08:00:00-07:00</lastmod>
   </url><url>
-    <loc>https://example.org/categories/</loc>
+    <loc>https://shukuwu.com/categories/</loc>
   </url><url>
-    <loc>https://example.org/search/</loc>
+    <loc>https://shukuwu.com/search/</loc>
     <priority>0.1</priority>
   </url>
 </urlset>
