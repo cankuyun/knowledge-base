@@ -586,10 +586,10 @@ h1,h2{
 }
 
 .searchNavTop{
-	background-color:#ff9a6a;
+	background-color:#1CB15C;
 }
 .searchNavTop button{
-	background-color:#ff9a6a;
+	background-color:#1CB15C;
 	border:0;
 	padding:3px 10px 3px 10px;
 	margin:0;
@@ -933,7 +933,7 @@ h1,h2{
 		display:none;
 		background-color:#f5f5ee;
 		padding-bottom:10px;
-		border-bottom:5px solid #ff9a6a;
+		border-bottom:5px solid #1CB15C;
 	}
 	.TopButtons ul{
 		text-align:center;
