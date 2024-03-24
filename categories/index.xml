@@ -1,11 +1,1 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Categories on 书库屋</title>
-    <link>https://shukuwu.com/categories/</link>
-    <description>Recent content in Categories on 书库屋</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <atom:link href="https://shukuwu.com/categories/index.xml" rel="self" type="application/rss+xml" />
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Categories on 书库屋</title><link>https://shukuwu.com/categories/</link><description>Recent content in Categories on 书库屋</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 20 Feb 2024 15:15:30 +0800</lastBuildDate><atom:link href="https://shukuwu.com/categories/index.xml" rel="self" type="application/rss+xml"/><item><title>Post</title><link>https://shukuwu.com/categories/post/</link><pubDate>Tue, 20 Feb 2024 15:15:30 +0800</pubDate><guid>https://shukuwu.com/categories/post/</guid><description/></item><item><title>Red</title><link>https://shukuwu.com/categories/red/</link><pubDate>Tue, 20 Feb 2024 15:15:30 +0800</pubDate><guid>https://shukuwu.com/categories/red/</guid><description/></item><item><title>小说</title><link>https://shukuwu.com/categories/%E5%B0%8F%E8%AF%B4/</link><pubDate>Tue, 20 Feb 2024 15:15:30 +0800</pubDate><guid>https://shukuwu.com/categories/%E5%B0%8F%E8%AF%B4/</guid><description/></item><item><title>小说1</title><link>https://shukuwu.com/categories/%E5%B0%8F%E8%AF%B41/</link><pubDate>Tue, 20 Feb 2024 15:15:30 +0800</pubDate><guid>https://shukuwu.com/categories/%E5%B0%8F%E8%AF%B41/</guid><description/></item><item><title>Gudian</title><link>https://shukuwu.com/categories/gudian/</link><pubDate>Sun, 15 Jan 2023 09:00:00 -0700</pubDate><guid>https://shukuwu.com/categories/gudian/</guid><description/></item><item><title>Gudian-Xuanwu</title><link>https://shukuwu.com/categories/gudian-xuanwu/</link><pubDate>Sun, 15 Jan 2023 09:00:00 -0700</pubDate><guid>https://shukuwu.com/categories/gudian-xuanwu/</guid><description/></item><item><title>Xiandai</title><link>https://shukuwu.com/categories/xiandai/</link><pubDate>Sun, 15 Jan 2023 09:00:00 -0700</pubDate><guid>https://shukuwu.com/categories/xiandai/</guid><description/></item></channel></rss>

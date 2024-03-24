@@ -21,7 +21,7 @@ if(searchQuery){
   $("#search-query").val(searchQuery);
   executeSearch(searchQuery);
 }else {
-  $('#search-results').append("<p>Please enter a word or phrase above</p>");
+  $('#search-results').append("<p>请在上方输入需要检索的内容</p>");
 }
 
 function executeSearch(searchQuery){
@@ -33,7 +33,7 @@ function executeSearch(searchQuery){
     if(result.length > 0){
       populateResults(result);
     }else{
-      $('#search-results').append("<p>No matches found</p>");
+      $('#search-results').append("<p>未找到匹配的内容</p>");
     }
   });
 }
@@ -65,7 +65,7 @@ function populateResults(result){
     //pull template from hugo templarte definition
     var templateDefinition = $('#search-result-template').html();
     //replace values
-    var output = render(templateDefinition,{key:key,title:value.item.title,link:value.item.permalink,tags:value.item.tags,categories:value.item.categories,snippet:snippet});
+    var output = render(templateDefinition,{key:key,title:value.item.title,link:value.item.permalink,tags:value.item.tags,categories:value.item.categories,snippet:snippet,imgs:value.item.imgs});
     $('#search-results').append(output);
 
     $.each(snippetHighlights,function(snipkey,snipvalue){
