@@ -256,6 +256,40 @@ document.addEventListener('DOMContentLoaded', (event) => {
 });
 
 
+// 手机端触摸滑动显示和隐藏操作按钮面板
+var divToHide = document.querySelector('[data-reactid=".0.2.1"]');
+
+var touchstartX = 0;
+var touchstartY = 0;
+var touchendX = 0;
+var touchendY = 0;
+
+document.addEventListener('touchstart', function(event){
+    touchstartX = event.touches[0].clientX;
+    touchstartY = event.touches[0].clientY;
+});
+
+document.addEventListener('touchend', function(event){
+    touchendX = event.changedTouches[0].clientX;
+    touchendY = event.changedTouches[0].clientY;
+
+    var offsetX = Math.abs(touchendX - touchstartX);
+    var offsetY = Math.abs(touchendY - touchstartY);
+    // alert(offsetX)
+    // alert(offsetY)
+    if (offsetX < offsetY) {
+        // 水平滑动
+        divToHide.classList.replace('controller','hide');
+    }
+});
+
+document.addEventListener('click', function(event){
+    // divToHide.style.display = "block";
+    divToHide.classList.replace('hide','controller');
+});
+
+
+
 //懒加载
 window.onload = function(){
     var scrollTop = window.scrollY;

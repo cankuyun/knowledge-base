@@ -1,1 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Red0 on 书库屋</title><link>https://shukuwu.com/tags/red0/</link><description>Recent content in Red0 on 书库屋</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 15 Jan 2023 09:00:00 -0700</lastBuildDate><atom:link href="https://shukuwu.com/tags/red0/index.xml" rel="self" type="application/rss+xml"/><item><title>模板添加</title><link>https://shukuwu.com/xiaoshuo/xiaoshuo8/</link><pubDate>Sun, 15 Jan 2023 09:00:00 -0700</pubDate><guid>https://shukuwu.com/xiaoshuo/xiaoshuo8/</guid><description>模板添加</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Red0 on 书库屋</title>
+    <link>https://shukuwu.com/tags/red0/</link>
+    <description>Recent content in Red0 on 书库屋</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 15 Jan 2023 09:00:00 -0700</lastBuildDate>
+    <atom:link href="https://shukuwu.com/tags/red0/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>模板添加</title>
+      <link>https://shukuwu.com/xiaoshuo/xiaoshuo8/</link>
+      <pubDate>Sun, 15 Jan 2023 09:00:00 -0700</pubDate>
+      <guid>https://shukuwu.com/xiaoshuo/xiaoshuo8/</guid>
+      <description>模板添加</description>
+    </item>
+  </channel>
+</rss>

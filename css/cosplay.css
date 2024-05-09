@@ -1,3 +1,83 @@
+.rankList {
+    margin-top: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px dotted #eee;
+    position: relative;
+}
+.rankList label {
+    border-radius: 4px;
+    background-color: #aab;
+    color: #fff;
+    font-size: 14px;
+    width: 18px;
+    text-align: center;
+    font-weight: normal;
+    display: inline-block;
+    position: absolute;
+    top: 2px;
+}
+label.num3 {
+    background: #e6bf25;
+    color: #fff;
+}
+label.num2{
+	background: #e67225;
+    color: #fff;
+}
+.rankList .nickName {
+    max-width: 190px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+    margin-left: 25px;
+}
+.rankhostList {
+    position: relative;
+    border-bottom: 1px dotted #eee;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+.rankhostList div,.rankhostList img {
+    border-radius: 5px;
+    width: 45px;
+    height: 60px;
+    margin-right: 5px;
+    display: inline-block;
+    vertical-align: top;
+}
+.rankhostList h4 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 14px;
+    width: 190px;
+}
+
+.rankcent {
+    display: inline-block;
+    /*width: 310px;*/
+    width: calc(90% / 3);
+    padding: 10px;
+    margin: 0;
+    margin-left: 20px;
+    vertical-align: top;
+    border: 1px solid #eee;
+}
+
+.rankBoard{
+	width: 100%;
+    margin-bottom: 20px;
+}
+.rankBoard h2 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #666;
+    padding: 0 0 5px 5px;
+}
+
+
 .highlight{
 	color: #1CB15C;
 }
@@ -391,7 +471,9 @@
 	height: 100%;
 	z-index:18;
 	height:2rem;
-	position:relative;
+	position:fixed;
+	bottom: 5%;
+	/*position:relative;*/
 	/*margin:auto;*/
     margin: 0;
     display: flex;
@@ -3199,6 +3281,17 @@
 	}
 	.category h2 small{
 		margin-top:5px;
+	}
+	.rankcent {
+	    display: block;
+	    width: 100%;
+	    padding: 0;
+	    margin: 0;
+	    border-top: 10px solid #eee;
+	    padding-top: 10px;
+	    position: relative;
+	    top: auto;
+	    right: auto;
 	}
 	.RankRight{
 		display:block;
