@@ -4,7 +4,7 @@ backend:
   branch: main
   auth_scope: repo
   base_url: https://cankuyun.github.io/knowledge-base/
-  auth_endpoint: https://api.netlify.com
+  auth_endpoint: https://oauth-api.shukuwu.com
   app_id: Ov23liFivyFSRUmeAHGw
 
 media_folder: "static/img"
