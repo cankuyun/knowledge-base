@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+  <head>
+    <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
+  </head>
+  <body>
+    <script>
+      CMS.init({
+        config: {
+          backend: {
+            name: 'github',
+            repo: 'cankuyun/knowledge-base', // 替换为你的 GitHub 用户名和仓库名
+            branch: 'main', // 替换为你使用的分支名
+            auth_scope: 'repo',
+          },
+        },
+      });
+    </script>
+  </body>
+</html>
