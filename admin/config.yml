@@ -27,6 +27,6 @@ collections:
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "default" }
       - { label: "标题", name: "title", widget: "string" }
-      - { label: "标签", name: "tag", widget: "string" }
-      - { label: "时间", name: "date", widget: "datetime" }
+      - { label: "tag", name: "tag", widget: "string" }
+      - { label: "Publish", name: "date", widget: "datetime" }
       - { label: "Body", name: "body", widget: "markdown" }
