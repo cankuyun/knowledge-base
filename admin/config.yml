@@ -1,7 +1,7 @@
 backend:
   name: github
   branch: main
-  repo: cankuyun/knowledge-base # change this to your repo
+  repo: cankuyun/auto # change this to your repo
   base_url: https://oauth-api.shukuwu.com # change this to your OAuth server
 publish_mode: editorial_workflow
 media_folder: "images/uploads"
